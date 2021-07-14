@@ -34,6 +34,12 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
+    title: 'Data Faskes',
+    path: '/peta-faskes',
+    icon: <SiIcons.SiGooglemaps />,
+    cName: 'nav-text'
+  },
+  {
     title: 'Log Out',
     path: '/logout',
     icon: <FiIcons.FiLogOut />,

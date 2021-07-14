@@ -84,20 +84,20 @@ export default function Dashboard({ history }) {
                         scope="col"
                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                       >
-                        Nama Lengkap
+                        NIK
                       </th>
                       <th
                         scope="col"
                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase  tracking-wider"
                       >
-                        Alamat Isolasi
+                        Nama Lengkap
                       </th>
 
                       <th
                         scope="col"
                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                       >
-                        NIK
+                        Tempat Isolasi
                       </th>
                       <th
                         scope="col"
@@ -122,13 +122,13 @@ export default function Dashboard({ history }) {
                                       <div className="text-sm font-medium text-gray-900"></div>
                                     </div>
                                   </div>
-                                  {item.fullName}
+                                  {item.nik}
                                 </td>
                                 <td className="px-6 py-4 whitespace-nowrap flex text-gray-500">
-                                  {item.isolasi}
+                                  {item.fullName}
                                 </td>
                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                  {item.nik}
+                                  {item.isolasi}
                                 </td>
                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                                   <Buttons
